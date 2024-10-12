@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    border: 2px solid #ac9292;
+    text-align: center;
+    word-spacing: -20px;
+    text-transform:capitalize;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100rem;
+    font-weight: 100;
+    width: 100%;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#logo_side {
+    display: block;
+    background-image: url(bg\ img.jpg);
+    height: 20px;
+}
+
+#logo-side #img {
+    background-color: azure;
+    box-sizing: border-box;
+}
+div:nth-child(4) {
+    background-color: rgb(192, 216, 38);
+    color: #9b1313;
+  }
+.box{
+    border: 2px solid red;
+    padding: 12px;
+    margin: 12px;
+    height: 50px;
+    box-sizing: border-box;
+    align-items: center;
+}
